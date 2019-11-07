@@ -58,11 +58,12 @@ def reduce_to_all_true(source_array)
   x = 0 
   while x < source_array.length do 
     if source_array[x] == true 
-      return true 
+      return true
+    if source_array
     end 
     x += 1 
   end 
-  return false 
+   
 end
 
   
