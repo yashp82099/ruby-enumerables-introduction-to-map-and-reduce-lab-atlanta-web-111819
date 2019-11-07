@@ -62,7 +62,9 @@ def reduce_to_all_true(source_array)
     end 
     x += 1 
   end 
-  return 
+  return false 
+end
+
   
 
   
