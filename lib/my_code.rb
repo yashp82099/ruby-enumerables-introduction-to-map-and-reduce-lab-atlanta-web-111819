@@ -45,7 +45,15 @@ end
 
 
 def reduce_to_total(source_array, starting_point)
-  total = 
+  total = starting_point 
+  x = 0 
+  while x < source_array.length do 
+    total = total + source_array[x]
+    x += 1 
+  end 
+  return total
+end 
+
   
 
   
