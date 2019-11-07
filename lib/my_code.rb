@@ -22,7 +22,11 @@ def map_to_no_change(source_array)
   return arr
 end 
 
-
+def map_to_double(source_array)
+  arr = [] 
+  x = 0 
+  while x < source_array.length do 
+    arr.push()
 
 
 
